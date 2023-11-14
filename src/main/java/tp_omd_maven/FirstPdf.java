@@ -172,7 +172,11 @@ public class FirstPdf {
         list.add(new ListItem("Third point"));
         subCatPart.add(list);
     }
-   
+    private static void codemort () {
+    	int g=0;
+    	System.out.println(g);
+    }
+
     private static void addEmptyLine(Paragraph paragraph, int number) {
         for (int i = 0; i < number; i++) {
             paragraph.add(new Paragraph(" "));
