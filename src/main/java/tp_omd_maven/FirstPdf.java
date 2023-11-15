@@ -173,8 +173,12 @@ public class FirstPdf {
         subCatPart.add(list);
     }
     private static void codemort () {
-    	int g=0;
-    	System.out.println(g);
+    	int g=1;
+    	for(int i =0;i<1;i++) {
+    		System.out.println(g);
+    	}
+    
+    	
     }
 
     private static void addEmptyLine(Paragraph paragraph, int number) {
