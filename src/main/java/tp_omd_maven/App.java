@@ -8,6 +8,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Nouveau Conflit main" );
+        System.out.println( "Nouveau Conflit master 2" );
     }
 }
