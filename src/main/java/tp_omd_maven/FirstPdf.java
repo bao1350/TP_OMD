@@ -186,4 +186,8 @@ public class FirstPdf {
             paragraph.add(new Paragraph(" "));
         }
     }
+
+    private static void codeMort(){
+        System.out.println("code mort pour conflit");
+    }
 }
