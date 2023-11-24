@@ -67,6 +67,14 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M5</version> <!-- Utilisez la dernière version disponible -->
+            <configuration>
+                <!-- Spécifiez ici les configurations supplémentaires si nécessaire -->
+            </configuration>
+        </plugin>
 		</plugins>
 
 
@@ -111,9 +119,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-changelog-plugin</artifactId>
 			</plugin>
-
-
-		</plugins>
 
 	</reporting>
 	<scm>
